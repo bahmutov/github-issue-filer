@@ -1,0 +1,27 @@
+{
+  "name": "github-issue-filer",
+  "version": "1.0.0",
+  "description": "Smart GitHub issue filer - opens new issue or updates existing one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/github-issue-filer.git"
+  },
+  "keywords": [
+    "github",
+    "gh",
+    "issue",
+    "file",
+    "filer",
+    "utility"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/github-issue-filer/issues"
+  },
+  "homepage": "https://github.com/bahmutov/github-issue-filer#readme"
+}
