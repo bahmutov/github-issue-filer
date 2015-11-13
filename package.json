@@ -4,7 +4,9 @@
   "description": "Smart GitHub issue filer - opens new issue or updates existing one",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "issues": "git-issues",
+    "commit": "git-issues && commit-wizard"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,21 @@
     "github-issue-proxy": "1.1.0",
     "lazy-ass": "1.0.0",
     "moment": "2.10.6"
+  },
+  "config": {
+    "pre-git": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": [],
+      "pre-push": [],
+      "post-commit": [],
+      "post-merge": []
+    }
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "devDependencies": {
+    "git-issues": "1.1.0",
+    "pre-git": "1.2.11"
   }
 }
