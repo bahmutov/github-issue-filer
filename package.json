@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/bahmutov/github-issue-filer/issues"
   },
-  "homepage": "https://github.com/bahmutov/github-issue-filer#readme"
+  "homepage": "https://github.com/bahmutov/github-issue-filer#readme",
+  "dependencies": {
+    "check-more-types": "2.1.2",
+    "github-issue-matcher": "1.0.0",
+    "github-issue-proxy": "1.1.0",
+    "lazy-ass": "1.0.0",
+    "moment": "2.10.6"
+  }
 }
